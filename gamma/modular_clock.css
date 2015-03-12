@@ -63,6 +63,6 @@ div.box_off{
 	background: rgba(0, 0, 0, 0.5);
 }
 
-.bootstrap-select {
+select {
 	width: 60px !important;
 }

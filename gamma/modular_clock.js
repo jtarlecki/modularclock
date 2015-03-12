@@ -90,8 +90,8 @@ function modular_clock_init(){
 	}
 	
 	var createSelects = function selectFn(id) {
-		var options
-		j=0
+		var options;
+		j=0;
 		for (i=k.baseMax; i>=k.baseMin; i--) {
 			options += '<option value="' + i + '" ' + ((j=0) ? ' selected="select"' : '' +'>') + i + '</option>';
 			j++
@@ -110,7 +110,7 @@ function modular_clock_init(){
 	// Add select inputs
 	k.timeVarsLoop(createSelects);
 	
-	// If changed, then reset (before bootstrap .selectpicker() was implemented
+	// If changed, then reset (before bootstrap .selectpicker
 	//$("[id^=mod]").change(function(){modular_clock_update(1);});
 
 	// Start the clock
